@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.pad{
+    padding: 20px 60px;
+    margin-top: 10px;
+}
+.img1{
+    width: 100px;
+}
+.nav-item{
+    font-size: 18px!important;
+}
+.nav-link:hover{
+    color: rgb(237,28,36)!important;
+}
+.back{
+    padding: 8px 22px;
+    border: 1px solid rgb(215,215,215);
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(237,28,36);
+    background-color: rgba(240, 248, 255, 0);
+}
+.back:hover{
+    border: 1px solid rgb(237,28,36);
+    color: darkgreen;
+}
+.navbar-collapse {
+    max-height: none !important;
+    height: auto !important;
+}
+.navbar-nav-scroll {
+    max-height: none !important;
+    overflow: visible !important;
+}
+.center h1{
+    font-size: 48px;
+    color: rgb(79,79,79);
+}
+.small{
+    font-weight: 300;
+}
+.back1{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(237,28,36);
+    font-size: 24px;
+    margin-top: 30px;
+}
+.center{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.cimg{
+    width: 100%;
+}
+.sec2{
+    padding: 0px 120px;
+    margin-top: 50px;
+}
+.carousel-inner{
+    margin-top: auto;
+    width: fit-content;
+   
+}
+.ava{
+    font-size: 24px;
+}
+.simp{
+    font-size: 40px;
+    font-weight: 350;
+}
+.sec3{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.awesome{
+    font-size: 48px;
+}
+.blue{
+    background-color: rgb(241,245,249);
+    padding: 30px 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+}
+.top{
+    margin-top: 80px;
+}
+.smalli{
+    width: 80px;
+}
+.in{
+    width: 500px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+.width{
+    width: 300px;
+}
+.secflex{
+    /* border: 1px solid green; */
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+}
+.secflex1{
+    /* border: 1px solid green; */
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+}
+.text h1{
+    font-size: 48px;
+}
+.text p{
+    font-size: 24px;
+}
+.text{
+    width: 350px;
+    /* border: 1px solid red; */
+}
+.colour{
+    color: rgb(237,28,36);
+    font-size: 24px;
+}
+.sizz{
+    width: 100px;
+}
+.hh1{
+    margin-top: 30px;
+}
+.hh1 h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+footer{
+    margin-top: 40px;
+}
+.autob{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+.autob1{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.redd{
+    color: rgb(237,28,36);
+    text-decoration: none;
+    font-size: 20px;
+}
+.redd:hover {
+    color: rgb(237,28,36);
+}
+.leave{
+    margin-top: 10px;
+}
+.footflex{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.footflex a{
+    color: black;
+    text-decoration: none;
+}
+.footflex a:hover{
+    color: red;
+}
+
+
+
+/* responsiveness */
+/* mobile */
+@media screen and (max-width:480px){
+    .pad{
+        padding: 0px 20px;
+    }
+    .center h1{
+        font-size: 38px;
+    }
+    .sec2{
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+    .ava{
+        font-size: 15px;
+    }
+    .simp{
+        font-size: 20px;
+    }
+    .sec3{
+        width: 300px;
+    }
+    .in{
+        width: 270px;
+    }
+    .text{
+        width: 250px;
+        text-align: center;
+        margin: auto;
+    }
+    .text h1{
+        font-size: 35px;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .secc{
+        padding: 0px 20px;
+    }
+    .secflex{
+        flex-direction: column;
+    }
+    .secflex1{
+        flex-direction: column-reverse;
+    }
+    .footflex{
+        flex-direction: column;
+
+    }
+}
+/* tablet */
+@media screen and (min-width:481px) and (max-width:768px){
+    .pad{
+        padding: 0px 20px;
+    }
+    .sec2{
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+}
+/* larger tablets */
+@media screen and (min-width:769px) and (max-width:1080px){
+    .pad{
+        padding: 0px 20px;
+    }
+    .sec2{
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+}
